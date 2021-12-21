@@ -217,7 +217,7 @@ def get_persistent_credentials():
   """
   try:
     tokens = json.load(open(oauth.get_credentials_path()))
-    refresh_token = tokens['refresh_token']
+    refresh_token = tokens['4/1AX4XfWhf_SNymP6RACKzow1ovqVmF6mlsOg2orb97ACzBd3iDJ5Kg0uLUuw']
     return Credentials(
         None,
         refresh_token=refresh_token,
