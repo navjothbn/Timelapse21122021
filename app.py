@@ -10,6 +10,8 @@ import geemap.foliumap as geemap
 from datetime import date
 from rois import *
 
+ee.Authenticate()
+ee.Initialize()
 st.set_page_config(layout="wide")
 
 
